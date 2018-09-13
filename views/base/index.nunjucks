@@ -1,0 +1,6 @@
+{% extends 'views/base/base_index.nunjucks' %}
+
+{% block body %}
+
+
+{% endblock %}

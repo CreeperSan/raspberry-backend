@@ -1,0 +1,13 @@
+{% extends 'views/base/base.nunjucks' %}
+
+
+{% block head_style %}
+    
+{% endblock %}
+
+
+{% block body %}
+    <div>
+
+    </div>
+{% endblock %}
