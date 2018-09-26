@@ -1,0 +1,24 @@
+{% extends 'views/base/base_index.nunjucks' %}
+
+{% block content %}
+
+    <div style="width: 92%;margin:0 4%;display: flex;flex-direction: column;">
+
+        <span style="font-size: 2em;width: 100%;margin: 16px 0;">关于</span>
+
+        <span style="margin: 4px 0;">主机名称 : {{ host_name }}</span>
+        <span style="margin: 4px 0;">操作系统平台 : {{ os_platform }}</span>
+        <span style="margin: 4px 0;">操作系统名称 : {{ os_name }}</span>
+
+        <span style="margin: 4px 0;">CPU型号 : {{ cpu_module }}</span>
+        <span style="margin: 4px 0;">CPU架构 : {{ cpu_arch }}</span>
+
+        <span style="margin: 4px 0;">字节顺序 : {{ node_endianness }}</span>
+
+
+        <span style="margin: 4px 0;">Home目录 : {{ user_home_path }}</span>
+        <span style="margin: 4px 0;">临时文件目录 : {{ tmp_file_path }}</span>
+
+    </div>
+
+{% endblock %}
