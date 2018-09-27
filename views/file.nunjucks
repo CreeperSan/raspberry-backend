@@ -2,50 +2,218 @@
 
 {% block content %}
 
-    <script rel="script" src="/lib/vue/vue.js"></script>
+    <style>
+        .file-content-div{width: 100%;height: 100%;background-color: white;margin-bottom: 16px;display: flex;flex-direction: column;}
 
-    <div style="width: 92%;margin:0 4%;display: flex;flex-direction: column;">
+        .file-toolbar-div{width: 96%;border-bottom: 1px lightgray solid;padding: 16px 2%;display: flex;flex-direction: row;;justify-content: space-between;align-items: center;}
+
+        .file-button-group{}
+        .file-button{padding: 4px 12px;border: 1px solid lightgray;border-radius: 4px;background-color: white;}
+
+        .file-path-div{ flex: 1;justify-content: center;display: flex;flex-direction: row; }
+        .file-path-input{ width: 80%;border: 0; }
+
+        .file-list-content-div{height: 100%;overflow-y: scroll;}
+        .file-list-item-div{
+            display: flex;flex-direction: row;justify-content: space-between;align-items: center;width: 96%;padding: 8px 2%;
+            border-bottom: lightgray 1px solid;
+        }
+        .file-list-item-checkbox{width: 24px;height: 24px;}
+        .file-list-item-file-name-div{display: flex;flex-direction: row;justify-content: left;align-items: center;flex: 1;}
+        .file-list-item-file-name-icon{width: 24px;height: 24px;}
+        .file-list-item-file-name-text{margin-left: 8px;}
+        .file-list-item-file-name-text-clickable{margin-left: 8px;cursor: pointer;text-decoration: underline;color: black   ;}
+        .file-list-item-file-type{margin: 0 8px;text-align: center;width: 106px;}
+        .file-list-item-file-size{margin: 0 8px;text-align: center;width: 72px;}
+        .file-list-item-modify-time{ margin: 0 8px;text-align: center;width: 180px; }
+        .file-list-item-owner{ margin: 0 8px;text-align:center;width: 70px; }
+    </style>
+    <script rel="script" src="/lib/vue/vue.js"></script>
+    <script rel="script" src="/lib/axios/axios.js"></script>
+
+    <div style="width: 92%;margin:0 4%;display: flex;flex-direction: column;" id="file-app">
 
         <span style="font-size: 2em;width: 100%;margin: 16px 0;">文件</span>
-
-        <style>
-            .file-content-div{
-                width: 100%;height: 100%;background-color: white;margin-bottom: 16px;display: flex;flex-direction: column;
-            }
-
-            .file-toolbar-div{
-                width: 96%;border-bottom: 1px gray solid;padding: 16px 2%;display: flex;flex-direction: row;;justify-content: space-between;align-items: center;
-            }
-
-            .file-button-group{
-
-            }
-            .file-button{
-                padding: 4px 12px;border: 1px solid lightgray;border-radius: 4px;background-color: white;
-            }
-        </style>
 
         {# 操作内容 #}
         <div class="file-content-div">
             {# 操作工具栏 #}
             <div class="file-toolbar-div">
                 <div class="file-button-group">
-                    <span class="file-button">返回上一级</span>
-                    <span>/home/creepersan/project/raspberry-bakcend</span>
+                    <button class="file-button" v-on:click="onGoPreviousFolderClick()">返回上一级</button>
+                </div>
+                <div class="file-button-group file-path-div">
+                    <input class="file-path-input" type="text" id="input_folder_path" v-bind:value="g_path"/>
+                </div>
+                <div class="file-button-group">
+                    <button class="file-button" v-on:click="onGoToSpecifiedFolder()">前往</button>
                 </div>
             </div>
             <div class="file-toolbar-div">
                 <div class="file-button-group">
-                    <span class="file-button">上传</span>
-                    <span class="file-button">下载</span>
+                    <button class="file-button">上传</button>
+                    <button class="file-button">下载</button>
                 </div>
                 <div class="file-button-group">
-                    <span class="file-button">上传</span>
-                    <span class="file-button">下载</span>
+                    <button class="file-button">上传</button>
+                    <button class="file-button">下载</button>
                 </div>
             </div>
+
+            {# 文件列表分类标题 #}
+            <div class="file-list-item-div" style="background: lightgray;height: 26px;">
+                <input class="file-list-item-checkbox" type="checkbox">
+                <div class="file-list-item-file-name-div">
+                    <span class="file-list-item-file-name-text">名称</span>
+                </div>
+                <span class="file-list-item-owner">所有者</span>
+                <span class="file-list-item-file-type">文件类型</span>
+                <span class="file-list-item-file-size">大小</span>
+                <span class="file-list-item-modify-time">修改时间</span>
+            </div>
+            {# 文件列表 #}
+            <div class="file-list-content-div">
+                {# 文件列表内容 #}
+                <div>
+                    {% raw %}
+                    <div class="file-list-item-div" v-for="(file, index) in g_file_array" >
+                        <input class="file-list-item-checkbox" type="checkbox">
+                        <div class="file-list-item-file-name-div">
+                            <img class="file-list-item-file-name-icon" v-bind:src="getFileIcon(file)">
+                            <span v-if="file.is_folder" v-on:click="onFolderClick(file)" class="file-list-item-file-name-text file-list-item-file-name-text-clickable">{{ file.name }}</span>
+                            <span v-else class="file-list-item-file-name-text">{{ file.name }}</span>
+                        </div>
+                        <span class="file-list-item-owner">{{ file.uid }}</span>
+                        <span class="file-list-item-file-type">文本文档</span>
+                        <span class="file-list-item-file-size">{{ file.size }}</span>
+                        <span class="file-list-item-modify-time">{{ getFormatTimeString(file.modify_time) }}</span>
+                    </div>
+                    {% endraw %}
+                </div>
+            </div>
+
         </div>
 
     </div>
+
+    <script>
+
+        /**
+         *  封装
+         */
+        function getFormatTimeString(timeStrSrc) {
+            const tmpDateTime = new Date(timeStrSrc);
+            let tmpYear = tmpDateTime.getFullYear();
+            let tmpMonth = tmpDateTime.getMonth();
+            if (tmpMonth < 10){
+                tmpMonth = '0'+tmpMonth.toString()
+            }
+            let tmpDay = tmpDateTime.getDay();
+            if (tmpDay < 10){
+                tmpDay = '0'+tmpDay.toString()
+            }
+            let tmpHour = tmpDateTime.getHours();
+            if (tmpHour < 10){
+                tmpHour = '0'+tmpHour.toString()
+            }
+            let tmpMinute = tmpDateTime.getMinutes();
+            if (tmpMinute < 10){
+                tmpMinute = '0'+tmpMinute.toString()
+            }
+            let tmpSecond = tmpDateTime.getSeconds();
+            if (tmpSecond < 10){
+                tmpSecond = '0'+tmpSecond.toString()
+            }
+            return tmpYear+"/"+tmpMonth+"/"+tmpDay+" "+tmpHour+":"+tmpMinute+":"+tmpSecond;
+        }
+        function postPathRequest(path=null, successCallback=null, failCallback=null) {
+            let tmpRequestBody = {};
+            if (path){
+                tmpRequestBody['path'] = path
+            }
+            axios.post('/file',{
+                path : path
+            }).then(function (response) {
+                if (successCallback){ successCallback(response); }
+            }).catch(function (error) {
+                if (failCallback){ failCallback(error); }
+            })
+        }
+
+        /**
+         *  一些操作
+         */
+        function getFileIcon(file) {
+            if (file.is_folder){
+                return '/icon/file_type/folder.png'
+            }else {
+                switch (file.ext_name){
+                    case '.jpg':
+                    case '.jpeg':{ return '/icon/file_type/jpg.png' }
+                    case '.pdf':{ return '/icon/file_type/pdf.png' }
+                    case '.txt':{ return '/icon/file_type/txt.png' }
+                    case '.zip':{ return '/icon/file_type/zip.png' }
+                    default: { return '/icon/file_type/default.png' }
+                }
+            }
+        }
+
+        /**
+         *  一些共同操作
+         */
+        function callbackOnFolderOpen(response){
+            app.g_file_array = response.data.files;
+            app.g_path = response.data.path;
+            console.log(app.g_file_array)
+        }
+        function callbackOnFolderOpenError(error) {
+            alert('打开文件失败 '+error)
+        }
+
+        /**
+         *  逻辑相关
+         */
+        const app = new Vue({
+            el : '#file-app',
+            data(){
+                return {
+                    g_path : '/',
+                    g_file_array : []
+                }
+            } ,
+            mounted: function () {
+                postPathRequest(null, callbackOnFolderOpen, callbackOnFolderOpenError);
+            },
+            methods : {
+                onFolderClick(folder){
+                    const path = app.g_path+'/'+folder.name;
+                    postPathRequest(path, callbackOnFolderOpen, callbackOnFolderOpenError);
+                },
+                onGoPreviousFolderClick(){
+                    let tmpPath = document.getElementById('input_folder_path').value;
+                    if (tmpPath.length > 0){
+                        if (tmpPath.startsWith('/')) {
+                            // 去除末尾的无用的'/'
+                            while(tmpPath.endsWith('/') && tmpPath.length > 1){
+                                tmpPath = tmpPath.substr(0, tmpPath.length-1)
+                            }
+                            // 获取到上一级的 '/'
+                            tmpPath = tmpPath.substr(0,tmpPath.lastIndexOf('/')+1);
+                            postPathRequest(tmpPath, callbackOnFolderOpen, callbackOnFolderOpenError);
+                        }else{
+                            alert('路径需要以  /  开头');
+                        }
+                    } else {
+                        alert('请输入路径');
+                    }
+                },
+                onGoToSpecifiedFolder(){
+                    postPathRequest(document.getElementById('input_folder_path').value, callbackOnFolderOpen, callbackOnFolderOpenError);
+                }
+            }
+        });
+
+
+    </script>
 
 {% endblock %}
