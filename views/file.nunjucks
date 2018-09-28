@@ -148,10 +148,35 @@
                 return '/icon/file_type/folder.png'
             }else {
                 switch (file.ext_name){
+                    case '.apk': {return '/icon/file_type/apk.png'}
+                    case '.c': {return '/icon/file_type/c.png'}
+                    case '.cpp': {return '/icon/file_type/cpp.png'}
+                    case '.css': {return '/icon/file_type/css.png'}
+                    case '.dmg': {return '/icon/file_type/dmg.png'}
+                    case '.gif': {return '/icon/file_type/gif.png'}
+                    case '.htm':
+                    case '.html': {return '/icon/file_type/html.png'}
+                    case '.java': {return '/icon/file_type/java.png'}
+                    case '.js':
+                    case '.javascript': {return '/icon/file_type/javascript.png'}
                     case '.jpg':
                     case '.jpeg':{ return '/icon/file_type/jpg.png' }
+                    case '.md':
+                    case '.markdown':{ return '/icon/file_type/md.png' }
+                    case '.mp3':{ return '/icon/file_type/mp3.png' }
+                    case '.mp4':{ return '/icon/file_type/mp4.png' }
+                    case '.kt':
+                    case '.kotlin':{ return '/icon/file_type/kt.png' }
                     case '.pdf':{ return '/icon/file_type/pdf.png' }
+                    case '.php':{ return '/icon/file_type/php.png' }
+                    case '.pkg':{ return '/icon/file_type/pkg.png' }
+                    case '.png':{ return '/icon/file_type/png.png' }
+                    case '.rar':{ return '/icon/file_type/rar.png' }
+                    case '.svg':{ return '/icon/file_type/svg.png' }
+                    case '.swf':{ return '/icon/file_type/swf.png' }
+                    case '.torrent':{ return '/icon/file_type/torrent.png' }
                     case '.txt':{ return '/icon/file_type/txt.png' }
+                    case '.wav':{ return '/icon/file_type/wav.png' }
                     case '.zip':{ return '/icon/file_type/zip.png' }
                     default: { return '/icon/file_type/default.png' }
                 }

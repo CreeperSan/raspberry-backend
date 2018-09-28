@@ -156,6 +156,12 @@
                     <span class="function-item-text">数据库</span>
                 </div>
             </a>
+            <a class="function-item-div-a" href="/log">
+                <div class="function-item-div">
+                    <img class="function-item-icon" src="/icon/ic_log_gray.png">
+                    <span class="function-item-text">日志</span>
+                </div>
+            </a>
             <a class="function-item-div-a" href="/setting">
                 <div class="function-item-div">
                     <img class="function-item-icon" src="/icon/ic_setting_gray.png">

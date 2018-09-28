@@ -61,11 +61,15 @@ router.post('/', async(ctx, next) => {
     // 获取参数
     const requestParam = ctx.request.body;
     // 获取请求参数
-    let tmpPath;
-    try {
-        tmpPath = path.normalize(requestParam['path']);
-    }catch (e) {
+    let tmpPath = requestParam['path'];
+    if (!tmpPath){
         tmpPath = os.homedir();
+    }else{
+        try {
+            tmpPath = path.normalize(requestParam['path']);
+        } catch (e) {
+            tmpPath = os.homedir();
+        }
     }
     console.log(tmpPath);
     ctx.body = JSON.stringify({
