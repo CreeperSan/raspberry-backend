@@ -2,112 +2,189 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5be8a5fe-4325-4be5-8f40-971645c113b5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/apk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/cpp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/css.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/dmg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/gif.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/html.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/java.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/javascript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/kotlin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/md.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/mp3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/mp4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/php.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/pkg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/png.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/rar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/svg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/swf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/torrent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file_type/wav.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/ic_log_gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/database.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/download.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/exit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/log.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/process.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/setting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/shadowsocks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/dashboard.nunjucks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/database.nunjucks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/download.nunjucks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/exit.nunjucks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/log.nunjucks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/process.nunjucks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/setting.nunjucks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shadowsocks.nunjucks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icon/file/ic_file_unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/base/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/base/network.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/file/file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lib/vuejs/vue-dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lib/vuejs/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/utils/file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/base/base_content.nunjucks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/creepersan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/creepersan.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/apk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/cpp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/css.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/dmg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/folder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/gif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/java.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/javascript.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/jpg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/kotlin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/md.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/mp3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/mp4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/pdf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/php.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/pkg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/rar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/svg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/swf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/torrent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/txt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/wav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/file_type/zip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/ic_about_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/ic_dashboard_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/ic_database_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/ic_download_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/ic_exit_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/ic_file_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/ic_home_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/ic_key_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/ic_left_arrow_deep_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/ic_log_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/ic_paper_plane_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/ic_person_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/ic_process_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/ic_server_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icon/ic_setting_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lib/vue/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/about.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/database.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/download.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/exit.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/file.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/file.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/base/base_index.nunjucks" beforeDir="false" afterPath="$PROJECT_DIR$/views/base/base_index.nunjucks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/files.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/process.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/setting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/shadowsocks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/about.nunjucks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/base/base.nunjucks" beforeDir="false" afterPath="$PROJECT_DIR$/views/base/base.nunjucks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/base/base_index.nunjucks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/base/index.nunjucks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/dashboard.nunjucks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/database.nunjucks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/download.nunjucks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/exit.nunjucks" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/views/file.nunjucks" beforeDir="false" afterPath="$PROJECT_DIR$/views/file.nunjucks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.nunjucks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/log.nunjucks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.nunjucks" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.nunjucks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/process.nunjucks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/setting.nunjucks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shadowsocks.nunjucks" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1289472197">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="js" value="36" />
+          <entry key="json" value="7" />
+          <entry key="nunjucks" value="18" />
+          <entry key="png" value="1" />
+          <entry key="ts" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="Image" value="1" />
+          <entry key="JSON" value="7" />
+          <entry key="JavaScript" value="36" />
+          <entry key="Twig" value="18" />
+          <entry key="TypeScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="83" />
+          <entry key="js" value="6617" />
+          <entry key="json" value="48" />
+          <entry key="nunjucks" value="3914" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="83" />
+          <entry key="JSON" value="48" />
+          <entry key="JavaScript" value="6617" />
+          <entry key="Twig" value="3914" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="file.js" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/file.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+            <state relative-caret-position="178">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exit.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/exit.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/file.nunjucks">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="306">
+              <caret line="103" column="50" lean-forward="true" selection-start-line="103" selection-start-column="50" selection-end-line="103" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/log.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/file/file.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="714">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/utils/file.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="49" column="15" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/dashboard.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -133,6 +210,8 @@
       <find>file-list-div</find>
       <find>g_file_array</find>
       <find>g_pa</find>
+      <find>login-dialog-input-input</find>
+      <find>bod</find>
     </findStrings>
     <replaceStrings>
       <replace>router_users</replace>
@@ -150,30 +229,40 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/base/index.nunjucks" />
         <option value="$PROJECT_DIR$/views/index.nunjucks" />
-        <option value="$PROJECT_DIR$/public/css/base.css" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/views/login.nunjucks" />
-        <option value="$PROJECT_DIR$/views/base/base.nunjucks" />
         <option value="$PROJECT_DIR$/views/about.nunjucks" />
         <option value="$PROJECT_DIR$/routes/about.js" />
         <option value="$PROJECT_DIR$/public/lib/vue/vue.js" />
         <option value="$PROJECT_DIR$/routes/files.js" />
         <option value="$PROJECT_DIR$/public/test.js" />
         <option value="$PROJECT_DIR$/test.js" />
-        <option value="$PROJECT_DIR$/public/lib/axios/axios.js" />
-        <option value="$PROJECT_DIR$/views/file.nunjucks" />
-        <option value="$PROJECT_DIR$/routes/file.js" />
         <option value="$PROJECT_DIR$/views/base/base_index.nunjucks" />
         <option value="$PROJECT_DIR$/views/dashboard.nunjucks" />
+        <option value="$PROJECT_DIR$/routes/exit.js" />
         <option value="$PROJECT_DIR$/routes/dashboard.js" />
         <option value="$PROJECT_DIR$/routes/database.js" />
         <option value="$PROJECT_DIR$/routes/download.js" />
-        <option value="$PROJECT_DIR$/routes/exit.js" />
         <option value="$PROJECT_DIR$/routes/log.js" />
         <option value="$PROJECT_DIR$/routes/process.js" />
         <option value="$PROJECT_DIR$/routes/setting.js" />
         <option value="$PROJECT_DIR$/routes/shadowsocks.js" />
+        <option value="$PROJECT_DIR$/routes/login.js" />
+        <option value="$PROJECT_DIR$/public/css/base.css" />
+        <option value="$PROJECT_DIR$/views/login.nunjucks" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/public/lib/vuejs/vue.js" />
+        <option value="$PROJECT_DIR$/public/js/base/base.js" />
+        <option value="$PROJECT_DIR$/views/base/base.nunjucks" />
+        <option value="$PROJECT_DIR$/views/base/base_content.nunjucks" />
+        <option value="$PROJECT_DIR$/public/lib/axios/axios.js" />
+        <option value="$PROJECT_DIR$/public/js/base/network.js" />
+        <option value="$PROJECT_DIR$/routes/utils/network.js" />
+        <option value="$PROJECT_DIR$/config/config.js" />
+        <option value="$PROJECT_DIR$/config/config.json" />
+        <option value="$PROJECT_DIR$/routes/utils/file.js" />
+        <option value="$PROJECT_DIR$/routes/file.js" />
+        <option value="$PROJECT_DIR$/public/js/file/file.js" />
+        <option value="$PROJECT_DIR$/views/file.nunjucks" />
       </list>
     </option>
   </component>
@@ -206,7 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,17 +310,66 @@
             <path>
               <item name="raspberry-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="raspberry-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="raspberry-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raspberry-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="raspberry-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raspberry-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="icon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="raspberry-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raspberry-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="icon" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="raspberry-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raspberry-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="raspberry-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raspberry-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="raspberry-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raspberry-backend" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="raspberry-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raspberry-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="raspberry-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="raspberry-backend" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="raspberry-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raspberry-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,11 +388,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/icon/file" />
       <recent name="$PROJECT_DIR$/routes" />
       <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/public/icon" />
       <recent name="$PROJECT_DIR$/public/icon/file_type" />
-      <recent name="$PROJECT_DIR$/views/base" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,7 +408,9 @@
     </option>
   </component>
   <component name="RunManager" selected="npm.npm">
-    <configuration name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$/public" />
+    <configuration name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$/public">
+      <method v="2" />
+    </configuration>
     <configuration name="npm" type="js.build_tools.npm" factoryName="npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -281,6 +420,7 @@
       <arguments value="npm start" />
       <node-interpreter value="project" />
       <envs />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="npm.npm" />
@@ -313,35 +453,37 @@
       <workItem from="1537970121612" duration="7634000" />
       <workItem from="1538051159107" duration="7349000" />
       <workItem from="1538058554368" duration="5595000" />
-      <workItem from="1538137832213" duration="2280000" />
+      <workItem from="1538137832213" duration="2578000" />
+      <workItem from="1553794786865" duration="5016000" />
+      <workItem from="1553831469090" duration="24190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38241000" />
+    <option name="totallyTimeSpent" value="67745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="981" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17640863" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32845894" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32855567" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,169 +493,62 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/test.js" />
+    <entry file="file://$PROJECT_DIR$/routes/files.js" />
+    <entry file="file://$PROJECT_DIR$/views/about.nunjucks" />
+    <entry file="file://$PROJECT_DIR$/views/base/base_index.nunjucks" />
+    <entry file="file://$PROJECT_DIR$/views/dashboard.nunjucks" />
+    <entry file="file://$PROJECT_DIR$/views/shadowsocks.nunjucks" />
+    <entry file="file://$PROJECT_DIR$/views/download.nunjucks" />
+    <entry file="file://$PROJECT_DIR$/views/database.nunjucks" />
+    <entry file="file://$PROJECT_DIR$/views/log.nunjucks" />
+    <entry file="file://$PROJECT_DIR$/views/setting.nunjucks" />
+    <entry file="file://$PROJECT_DIR$/views/process.nunjucks" />
+    <entry file="file://$PROJECT_DIR$/views/exit.nunjucks" />
+    <entry file="file://$PROJECT_DIR$/routes/exit.js" />
+    <entry file="file://$PROJECT_DIR$/routes/log.js" />
+    <entry file="file://$PROJECT_DIR$/routes/process.js" />
+    <entry file="file://$PROJECT_DIR$/routes/setting.js" />
+    <entry file="file://$PROJECT_DIR$/routes/database.js" />
+    <entry file="file://$PROJECT_DIR$/routes/download.js" />
+    <entry file="file://$PROJECT_DIR$/routes/about.js" />
+    <entry file="file://$PROJECT_DIR$/routes/dashboard.js" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/javascript/nodejs/library/node-globals-stub.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="102">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/login.nunjucks">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/base/index.nunjucks">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/base/base_index.nunjucks">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/login.nunjucks">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/base/base.nunjucks">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/error.pug" />
-    <entry file="file://$PROJECT_DIR$/views/base/base.html" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+    <entry file="file://$PROJECT_DIR$/views/base/index.nunjucks" />
+    <entry file="file://$PROJECT_DIR$/routes/shadowsocks.js" />
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.nunjucks">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/icon/ic_user.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login.nunjucks">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="48" column="59" lean-forward="true" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="91" selection-start-column="91" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/nunjucks/src/express-app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/icon/ic_person_black.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/base/base.nunjucks">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/base/index.nunjucks">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/lib/vue/vue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="86237" selection-start-line="5" selection-start-column="86237" selection-end-line="5" selection-end-column="86237" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/koa-router/lib/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3847" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14706" column="13" selection-start-line="14706" selection-start-column="13" selection-end-line="14706" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/lib/axios/axios.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/files.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="102">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -524,122 +559,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/about.nunjucks">
+    <entry file="file://$PROJECT_DIR$/views/error.nunjucks">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/vuejs/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="93454" selection-start-line="5" selection-start-column="93454" selection-end-line="5" selection-end-column="93454" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/vuejs/vue-dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="11943" column="4" selection-start-line="11943" selection-start-column="4" selection-end-line="11943" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/base/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/login.nunjucks">
+    <entry file="file://$PROJECT_DIR$/views/base/base_content.nunjucks">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+        <state relative-caret-position="32">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/base/base_index.nunjucks">
+    <entry file="file://$PROJECT_DIR$/views/base/base.nunjucks">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="160" column="74" selection-start-line="160" selection-start-column="74" selection-end-line="160" selection-end-column="74" />
+        <state relative-caret-position="153">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/file.nunjucks">
+    <entry file="file://$PROJECT_DIR$/public/lib/axios/axios.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-931">
-          <caret line="163" column="29" selection-end-line="244" />
+        <state relative-caret-position="136">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/dashboard.nunjucks">
+    <entry file="file://$PROJECT_DIR$/public/js/base/network.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="630">
+          <caret line="51" column="68" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/shadowsocks.nunjucks">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/download.nunjucks">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/database.nunjucks">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/log.nunjucks">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/setting.nunjucks">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/process.nunjucks">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/exit.nunjucks">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/file.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/koa-router/lib/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        <state relative-caret-position="-363">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/database.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/download.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/process.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/setting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/shadowsocks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/exit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/log.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="227">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="49" column="15" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -650,10 +655,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/dashboard.js">
+    <entry file="file://$PROJECT_DIR$/config/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="17">
+          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/10.10.0/core-modules/fs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="154" column="12" selection-start-line="154" selection-start-column="12" selection-end-line="154" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/utils/file.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="1054" column="4" selection-start-line="1054" selection-start-column="4" selection-end-line="1054" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/file.nunjucks">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="103" column="50" lean-forward="true" selection-start-line="103" selection-start-column="50" selection-end-line="103" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/file.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/file/file.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>

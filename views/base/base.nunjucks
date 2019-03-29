@@ -1,15 +1,15 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{% block title %}{% endblock %}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/base.css"/>
-    {% block head_res %}{% endblock %}
-    {% block head_style %}{% endblock %}
-    {% block head_js %}{% endblock %}
+    <link type="text/css" rel="stylesheet" href="css/base.css" />
+    {% block head %}{% endblock %}
+    {% block css %}{% endblock %}
+    {% block js %}{% endblock %}
+    {% block style %}{% endblock %}
 </head>
 <body>
     {% block body %}{% endblock %}
