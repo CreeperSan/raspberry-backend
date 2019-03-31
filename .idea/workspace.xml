@@ -2,98 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5be8a5fe-4325-4be5-8f40-971645c113b5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/file/ic_file_unknown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/base/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/base/network.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/file/file.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/vuejs/vue-dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lib/vuejs/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/utils/file.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/base/base_content.nunjucks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/creepersan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/creepersan.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/apk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/cpp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/css.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/dmg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/gif.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/html.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/java.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/javascript.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/jpg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/kotlin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/md.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/mp3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/mp4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/pdf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/php.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/pkg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/rar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/svg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/swf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/torrent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/txt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/wav.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/file_type/zip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/ic_about_gray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/ic_dashboard_gray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/ic_database_gray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/ic_download_gray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/ic_exit_gray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/ic_file_gray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/ic_home_gray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/ic_key_black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/ic_left_arrow_deep_gray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/ic_log_gray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/ic_paper_plane_gray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/ic_person_black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/ic_process_gray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/ic_server_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon/ic_setting_gray.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lib/vue/vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/about.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/dashboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/database.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/download.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/exit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/file.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/file.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/files.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/log.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/process.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/setting.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/shadowsocks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/about.nunjucks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/base/base.nunjucks" beforeDir="false" afterPath="$PROJECT_DIR$/views/base/base.nunjucks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/base/base_index.nunjucks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/base/index.nunjucks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/dashboard.nunjucks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/database.nunjucks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/download.nunjucks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/exit.nunjucks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/file/file.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/file/file.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/file.nunjucks" beforeDir="false" afterPath="$PROJECT_DIR$/views/file.nunjucks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.nunjucks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/log.nunjucks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/login.nunjucks" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.nunjucks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/process.nunjucks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/setting.nunjucks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/shadowsocks.nunjucks" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -108,15 +19,15 @@
     <session id="-1289472197">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="js" value="36" />
+          <entry key="js" value="40" />
           <entry key="json" value="7" />
           <entry key="nunjucks" value="18" />
           <entry key="png" value="1" />
@@ -128,7 +39,7 @@
           <entry key="CSS" value="1" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="36" />
+          <entry key="JavaScript" value="40" />
           <entry key="Twig" value="18" />
           <entry key="TypeScript" value="1" />
         </counts>
@@ -136,17 +47,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="83" />
-          <entry key="js" value="6617" />
+          <entry key="js" value="7514" />
           <entry key="json" value="48" />
-          <entry key="nunjucks" value="3914" />
+          <entry key="nunjucks" value="4172" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="83" />
           <entry key="JSON" value="48" />
-          <entry key="JavaScript" value="6617" />
-          <entry key="Twig" value="3914" />
+          <entry key="JavaScript" value="7514" />
+          <entry key="Twig" value="4172" />
         </counts>
       </usages-collector>
     </session>
@@ -156,17 +67,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/file.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="363">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/file.nunjucks">
+        <entry file="file://$PROJECT_DIR$/config/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="103" column="50" lean-forward="true" selection-start-line="103" selection-start-column="50" selection-end-line="103" selection-end-column="50" />
+            <state relative-caret-position="17">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -174,8 +85,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/file/file.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="202">
+              <caret line="118" column="69" selection-start-line="118" selection-start-column="60" selection-end-line="118" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/file.nunjucks">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="84" column="100" selection-start-line="84" selection-start-column="89" selection-end-line="84" selection-end-column="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/base/network.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -183,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/utils/file.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="-28">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -260,9 +189,9 @@
         <option value="$PROJECT_DIR$/config/config.js" />
         <option value="$PROJECT_DIR$/config/config.json" />
         <option value="$PROJECT_DIR$/routes/utils/file.js" />
+        <option value="$PROJECT_DIR$/views/file.nunjucks" />
         <option value="$PROJECT_DIR$/routes/file.js" />
         <option value="$PROJECT_DIR$/public/js/file/file.js" />
-        <option value="$PROJECT_DIR$/views/file.nunjucks" />
       </list>
     </option>
   </component>
@@ -455,12 +384,13 @@
       <workItem from="1538058554368" duration="5595000" />
       <workItem from="1538137832213" duration="2578000" />
       <workItem from="1553794786865" duration="5016000" />
-      <workItem from="1553831469090" duration="24190000" />
+      <workItem from="1553831469090" duration="24919000" />
+      <workItem from="1554043499094" duration="2543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67745000" />
+    <option name="totallyTimeSpent" value="71017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="981" extended-state="0" />
@@ -614,16 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/base/network.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="51" column="68" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -662,24 +582,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/10.10.0/core-modules/fs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="154" column="12" selection-start-line="154" selection-start-column="12" selection-end-line="154" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/utils/file.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -690,24 +596,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/file.nunjucks">
+    <entry file="file://$PROJECT_DIR$/public/js/base/network.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="103" column="50" lean-forward="true" selection-start-line="103" selection-start-column="50" selection-end-line="103" selection-end-column="50" />
+        <state relative-caret-position="616">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/utils/file.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/file.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="363">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/file.nunjucks">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="84" column="100" selection-start-line="84" selection-start-column="89" selection-end-line="84" selection-end-column="100" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/file/file.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="202">
+          <caret line="118" column="69" selection-start-line="118" selection-start-column="60" selection-end-line="118" selection-end-column="69" />
         </state>
       </provider>
     </entry>
