@@ -37,7 +37,11 @@ router.post("/api/file-list", async (ctx, next) => {
     let params = ctx.request.body.params;
     let path = getValue(params.path, config.getDefaultPath);
     // 逻辑
-    ctx.body = await utilFile.getDirectoryFileList(path);
+    ctx.body = {
+        state : 200,
+        files : await utilFile.getDirectoryFileList(path),
+        path : path
+    };
 });
 
 

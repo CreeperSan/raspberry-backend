@@ -97,6 +97,9 @@ var app = new Vue({
         },
         toFilePath(file){
             const self = this;
+            if (self.path === '/'){
+                self.path = '';
+            }
             if (typeof file === "string"){
                 return self.path+"/"+file;
             } else {
@@ -109,15 +112,35 @@ var app = new Vue({
             if (index >= 0 && index < self.files.length){
                 // 点击了文件
                 const file = self.files[index];
-                self.getFolderContent(self.toFilePath(file));
+                switch (file.type) {
+                    case FILE_TYPE_DIRECTORY: // 打开文件夹
+                        self.getFolderContent(self.toFilePath(file));
+                        break;
+                    case FILE_TYPE_ERROR: // 此文件错误
+                        self.showAlert('此文件错误，无法打开');
+                        break;
+                    case FILE_TYPE_FILE: // 打开文件
+                        self.showAlert('正在打开文件');
+                        break;
+                }
             } else {
-                log("【错误】当前没有第"+index+"个文件")
+                self.showAlert("【错误】当前没有第"+index+"个文件")
             }
         },
         onJumpClick(){
             const self = this;
             let path = document.getElementById("pathInput").value;
             console.log(path);
+            self.getFolderContent(path);
+        },
+        onBackClick(){
+            const self = this;
+            let path = self.path;
+            if (path.indexOf('/')>=0 && path.lastIndexOf('/') === path.indexOf('/')){
+                path = '/';
+            }else if (path.lastIndexOf('/') >= 0){
+                path = path.substring(0, path.lastIndexOf('/'));
+            }
             self.getFolderContent(path);
         },
         /* 一些快捷操作 */
@@ -129,7 +152,9 @@ var app = new Vue({
                 requestParam.path = path;
             }
             httpPost("/file/api/file-list", requestParam, function (response) {
-                self.files = self.toFormatFileItemList(response.data);
+                self.files = self.toFormatFileItemList(response.data.files);
+                self.path = response.data.path; // 内容
+                document.getElementById("pathInput").value = self.path; // 地址栏显示
                 self.showFileList(); // 显示文件列表
             })
 
@@ -142,6 +167,9 @@ var app = new Vue({
         showFileList(){
             const self = this;
             self.isShowLoading = false;
+        },
+        showAlert(msg){
+            alert(msg);
         }
     },
     created : function () {
