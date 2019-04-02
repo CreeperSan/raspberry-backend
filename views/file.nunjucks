@@ -77,6 +77,31 @@
         .file-loading-text{
 
         }
+
+        .file-dialog-background-div{
+            width: 100%;background-color: rgba(0,0,0,0.5);height: 100%;position: fixed;
+        }
+        .file-dialog-div{
+            background-color: white;border-radius: 16px;min-width: 60%;position: fixed;align-self: center;margin: auto;padding: 16px 0;display: flex;flex-direction: column;box-shadow: gray 0 0 6px;margin-top: 30px;max-width: 90%;
+        }
+        .file-dialog-title{
+            padding: 8px 16px;font-size: 26px;font-weight: 300;
+        }
+        .file-dialog-content-text{
+            padding: 6px 16px;margin: 8px 0;
+        }
+        .file-dialog-action-button-div{
+            display: flex;flex-direction: row-reverse;padding: 0 26px;
+        }
+        .file-dialog-action-button{ /* 对话框按钮 */
+            padding: 6px 16px;margin: 0 4px;cursor: pointer;transition-duration: 300ms;background-color: white;border-radius: 6px;
+        }
+        .file-dialog-action-button:hover{
+            padding: 6px 16px;margin: 0 4px;cursor: pointer;transition-duration: 300ms;background-color: #EEE;
+        }
+        .file-dialog-action-button-positive{
+            color: green;
+        }
     </style>
 {% endblock %}
 
@@ -115,6 +140,17 @@
                 <span class="file-loading-text">加载中</span>
             </div>
 
+        </div>
+
+        <div class="file-dialog-background-div" id="dialogBackgroundDiv" v-on:click="onDialogBackgroundClick();"></div>
+
+        <div class="file-dialog-div" id="dialogRootDiv">
+            <span class="file-dialog-title" id="dialogTitle">我是标题</span>
+            <span class="file-dialog-content-text" id="dialogMessage">Hello，你不是孤獨的，✋我相信，現在你有甚麼不快都可以搵到人傾訴🗣裡面有我超想分享比你地既東西 </span>
+            <div class="file-dialog-action-button-div">
+                <span class="file-dialog-action-button file-dialog-action-button-positive" id="dialogPositiveButton">确定</span>
+                <span class="file-dialog-action-button" id="dialogNegativeButton">取消</span>
+            </div>
         </div>
     </div>
     <script src="js/file/file.js"></script>

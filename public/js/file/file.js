@@ -7,6 +7,7 @@ var app = new Vue({
     data : {
         path : "/Users/creepersan/TestDirectory",
         isShowLoading : false,
+        isDialogCanDismiss : true,
         files : []
     },
     methods : {
@@ -117,14 +118,20 @@ var app = new Vue({
                         self.getFolderContent(self.toFilePath(file));
                         break;
                     case FILE_TYPE_ERROR: // 此文件错误
-                        self.showAlert('此文件错误，无法打开');
+                        self.showErrorDialog('文件信息错误，打开失败', function () {
+                            self.dismissDialog();
+                        });
                         break;
                     case FILE_TYPE_FILE: // 打开文件
-                        self.showAlert('正在打开文件');
+                        self.showErrorDialog('正在打开文件', function () {
+                            self.dismissDialog();
+                        });
                         break;
                 }
             } else {
-                self.showAlert("【错误】当前没有第"+index+"个文件")
+                self.showErrorDialog("获取第"+index+"个文件错误", function () {
+                    self.dismissDialog();
+                })
             }
         },
         onJumpClick(){
@@ -142,6 +149,12 @@ var app = new Vue({
                 path = path.substring(0, path.lastIndexOf('/'));
             }
             self.getFolderContent(path);
+        },
+        onDialogBackgroundClick(){
+            const self = this;
+            if (self.isDialogCanDismiss){ // 如果不能关闭
+                self.dismissDialog();
+            }
         },
         /* 一些快捷操作 */
         getFolderContent(path=""){
@@ -170,6 +183,32 @@ var app = new Vue({
         },
         showAlert(msg){
             alert(msg);
+        },
+        showSimpleDialog(title, message, onSuccessCallback, onFailCallback){
+            document.getElementById("dialogTitle").innerText = title;
+            document.getElementById("dialogMessage").innerText = message;
+            document.getElementById("dialogBackgroundDiv").style.display = "block";
+            document.getElementById("dialogRootDiv").style.display = "flex";
+            if (typeof onSuccessCallback === "function"){ /* 确定 */
+                document.getElementById("dialogPositiveButton").style.display = "block";
+                onSuccessCallback
+            }else{
+                document.getElementById("dialogPositiveButton").style.display = "none";
+            }
+            if (typeof onFailCallback === "function"){ /* 取消 */
+                document.getElementById("dialogNegativeButton").style.display = "block";
+                // onFailCallback();
+            }else{
+                document.getElementById("dialogNegativeButton").style.display = "none";
+            }
+        },
+        showErrorDialog(msg, onSuccessCallback, onFailCallback){
+            const self = this;
+            self.showSimpleDialog("错误", msg, onSuccessCallback, onFailCallback);
+        },
+        dismissDialog(){
+            document.getElementById("dialogBackgroundDiv").style.display = "none";
+            document.getElementById("dialogRootDiv").style.display = "none";
         }
     },
     created : function () {
